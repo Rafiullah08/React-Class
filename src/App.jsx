@@ -1,23 +1,19 @@
-// import React from 'react';
-import TodoName from './components/todoName';
-import AddTodo from './components/addTodo';
-import TodoItems from './components/todoItems';
-// import "./App.css"
-
-
-
+import ClockName from './components/head'
+import ClockSlogan from './components/slogan'
+import ClockTime from './components/time'
+import './App.css'
 
 function App() {
   
-return (
-  <>
-<TodoName />
-<AddTodo />
-<TodoItems />
-  </>
-)
 
-
+  return (
+    <>
+   
+   <ClockName />
+  <ClockSlogan />
+  <ClockTime />
+    </>
+  )
 }
 
-export default App;
+export default App
