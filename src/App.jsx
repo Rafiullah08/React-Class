@@ -1,11 +1,23 @@
-import Btn from "./buttons";
+// import React from 'react';
+import TodoName from './components/todoName';
+import AddTodo from './components/addTodo';
+import TodoItems from './components/todoItems';
+// import "./App.css"
 
-function App(){
-  return <div>
+
+
+
+function App() {
   
-  <h1>hello world</h1>
-  <Btn/>
-  </div>
+return (
+  <>
+<TodoName />
+<AddTodo />
+<TodoItems />
+  </>
+)
+
+
 }
 
 export default App;
