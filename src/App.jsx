@@ -1,19 +1,13 @@
-import ClockName from './components/head'
-import ClockSlogan from './components/slogan'
-import ClockTime from './components/time'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import WhetherApp from "./components/whetherApp";
 
 function App() {
-  
-
   return (
     <>
-   
-   <ClockName />
-  <ClockSlogan />
-  <ClockTime />
+      <WhetherApp />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
